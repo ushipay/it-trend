@@ -28,6 +28,7 @@ jobs:
             今日の日付は ${DATE} です。
           " \
           --allowedTools "web_search,Write,Read,Bash" \
+          -dangerously-skip-permissions \
           --output-format text
 
       - name: Commit & Push
