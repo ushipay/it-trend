@@ -21,7 +21,9 @@ jobs:
       - name: Run news agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TEST: ${{ secrets.TEST }}
         run: |
+          echo "TEST: $TEST"
           DATE=$(date +'%Y-%m-%d')
           claude -p "
             /news-collector を実行してください。
