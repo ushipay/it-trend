@@ -4,49 +4,67 @@ title: IT Trend Daily
 
 # 💻 IT Trend Daily
 
-> AIが毎日自動収集するITトレンドニュース｜最終更新: 2026-03-12
+> AIが毎日自動収集するITトレンドニュース｜最終更新: 2026-03-13
 
 ## 🤖 AI・機械学習
 
-- **[政府「ガバメントAI」向け国産LLM7モデルを選定 — NECや富士通など](https://news.mynavi.jp/techplus/article/20260310-4203456/)**: デジタル庁は2026年3月9日、行政業務で試用する国産LLMの公募結果を発表し、15件の応募から7件を選定した。選定モデルは2026年度中に政府の生成AI環境「源内」で評価され、2027年度の本格調達に向けた検討に活用される。
-- **[NECのLLM「cotomi v3」がガバメントAI向けに選定](https://jpn.nec.com/press/202603/20260309_03.html)**: NECが開発した国産LLM「cotomi v3」が、デジタル庁の国産LLM公募で選定された。政府システムへの国産AI導入が本格化しており、データ主権・セキュリティの観点からも注目を集めている。
-- **[OpenAI、エンタープライズ向けAIエージェント管理プラットフォーム「OpenAI Frontier」を発表](https://techcrunch.com/2026/02/05/openai-launches-a-way-for-enterprises-to-build-and-manage-ai-agents/)**: OpenAIはエンタープライズ向けにAIエージェントを構築・管理できるオープンプラットフォーム「Frontier」を発表。HP・Oracle・State Farm・Uberなどが顧客として参画しており、外部で構築されたエージェントも統合管理できる。
-- **[Linux Foundation、AIエージェント標準化を目指す「Agentic AI Foundation（AAIF）」を設立](https://techcrunch.com/2025/12/09/openai-anthropic-and-block-join-new-linux-foundation-effort-to-standardize-the-ai-agent-era/)**: OpenAI・Anthropic・Blockが参画するAAIFが発足し、AIエージェント間の相互運用性の標準化が進んでいる。AnthropicはMCP、OpenAIはAGENTS.md、BlockはGooseをそれぞれ寄贈した。
-- **[MCP（Model Context Protocol）が業界標準へ — Google・OpenAI・Microsoftが相次ぎ採用](https://techcrunch.com/2025/12/10/google-is-going-all-in-on-mcp-servers-agent-ready-by-design/)**: AnthropicのMCPが「AIのUSB-C」として急速に業界標準化しつつある。GoogleはMaps・BigQuery・GKEなど自社サービス向けのマネージドMCPサーバーを公開し、エンタープライズ顧客への無償提供も開始した。
+- **[デジタル庁、政府AI「源内」向け国産LLM 7モデルを選定 — 18万人の政府職員で大規模実証へ](https://www.itmedia.co.jp/aiplus/articles/2603/06/news097.html)**: デジタル庁が政府業務向け生成AI基盤「源内（ガバメントAI）」で試用する国産LLMとして、NTTデータ「tsuzumi 2」、KDDI/ELYZA「Llama-3.1-ELYZA-JP-70B」、ソフトバンク「Sarashina2 mini」、NEC「cotomi v3」、富士通「Takane 32B」、Preferred Networks「PLaMo 2.0 Prime」、カスタマークラウド「CC Gov-LLM」の7モデルを選定。2026年5月から全府省庁39機関・約18万人の職員を対象に大規模実証を実施する。
+
+- **[政府職員向けAI基盤「源内」、18万人対象の実証開始](https://www.itmedia.co.jp/enterprise/articles/2603/11/news042.html)**: 選定された国産LLMは契約手続き後に政府クラウド環境へ実装され、2026年8月頃から試用評価が開始される予定。評価結果を踏まえ、優れたモデルは2027年度以降の政府調達を実施する方針。
+
+- **[GitHub Copilot JetBrains IDE向けにエージェント機能を大規模強化 — カスタムエージェント・MCP自動承認がGA](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/)**: GitHub Copilotの3月11日アップデートでカスタムエージェント、サブエージェント、プランエージェントが一般提供開始。エージェントフックやAGENTS.md・CLAUDE.md命令ファイルのサポートも拡充された。
+
+- **[GitHub Copilot Coding Agent、Jira連携がパブリックプレビューに](https://github.blog/changelog/2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview/)**: JiraのIssueをGitHub Copilotコーディングエージェントにアサインすると、エージェントが自律的に実装を行いドラフトPRを自動生成。Jiraのエージェントパネルに進捗が投稿される。
+
+- **[GitHub Blog: AIが「テキスト」から「実行」へ — Copilot SDKがテクニカルプレビュー開始](https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/)**: GitHub Copilot SDKがテクニカルプレビューとして公開。任意のアプリケーションにエージェント的なタスク実行（計画・ツール実行・ファイル編集・コマンド実行）を組み込み可能に。
 
 ## ☁️ クラウド・インフラ
 
-- **[GitHub Copilot、JetBrains IDEsでカスタムエージェント・サブエージェント機能がGA](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/)**: 2026年3月11日、GitHub Copilotのカスタムエージェント・サブエージェント・プランエージェントがJetBrains IDEsで一般提供開始。MCPのオートアプルーブ対応やエージェントフック（パブリックプレビュー）も追加され、複雑なタスクの自動化が大きく前進した。
-- **[GitHub Copilot、Jira連携コーディングエージェントがパブリックプレビューに](https://github.blog/changelog/2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview/)**: JiraチケットをGitHub Copilotコーディングエージェントにアサインすることで、ドラフトプルリクエストを自動生成できる機能がパブリックプレビュー公開。Jira上でのエージェント進捗レポートや質問投稿にも対応している。
-- **[Copilotコードレビューがエージェントアーキテクチャ（GA）に移行](https://github.blog/changelog/2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture/)**: GitHub Copilotのコードレビュー機能がエージェント型ツール呼び出しアーキテクチャに移行し、全有料プランで一般提供開始。リポジトリのコンテキスト（関連コード・ディレクトリ構造）を収集して高品質なレビューを提供する。
-- **[AWSのクラウドシェアが30%割れ、AzureとGCPが追い上げ加速 — Synergy Research調査](https://www.publickey1.jp/blog/25/aws30azure2220251synergy_research.html)**: 2025年Q1でAWSのクラウド市場シェアが初めて30%を下回った。Azureは22%で着実に成長を続けており、AI統合とエンタープライズ市場での強みが奏功している。
+- **[クラウドインフラのシェア、AWSが28%に低下 — AzureとGoogle Cloudが差を詰める（2025年Q4）](https://www.publickey1.jp/blog/26/aws28azuregoogle_cloud20254synergy_research.html)**: 2025年Q4のグローバルクラウドインフラ市場規模は1,200億ドル。AWSは前四半期比1ポイント減の28%、AzureとGoogle Cloudはそれぞれ1ポイント増。AIワークロードの需要拡大を背景に3社とも大規模投資を継続している。
+
+- **[AWSがGoogle Cloudとの高速クロスクラウド接続「AWS Interconnect」プレビュー開始 — Azureとの接続も近日予定](https://www.publickey1.jp/blog/25/awsgoogle_cloudazureaws_interconnect.html)**: AWSがマルチクラウド高速プライベート接続サービス「AWS Interconnect - multicloud」のプレビューを開始。2026年後期にMicrosoft Azureとの接続も追加予定。
+
+- **[マイクロソフト、独自Armプロセッサ第2世代「Azure Cobalt 200」を発表 — 前世代比50%性能向上](https://www.publickey1.jp/blog/26/)**: デジタルツインを活用した設計で50%の性能向上を達成した次世代Azure向けArmプロセッサ。クラウドワークロードの処理効率を大幅に改善する。
+
+- **[GitHub Copilot in VS Code v1.110リリース — エージェントプラグイン・共有メモリ・フックが登場](https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release/)**: VS Code 2026年2月リリース版で拡張機能ビューからインストールできる「エージェントプラグイン」、Copilot CLI・Code Reviewにわたる「共有エージェントメモリ」、フック機能が追加。
 
 ## 🛠️ ソフトウェア開発
 
-- **[GitHub Copilot SDK、Node.js・Python・Go・.NETで技術プレビュー公開](https://dev.to/dharani0419/github-copilot-evolves-sdk-launch-agentic-memory-new-ai-models-february-2026-update-35g9)**: GitHub Copilot CLIへのプログラムアクセスを可能にするSDKが技術プレビュー公開。4言語に対応し、独自ツールやワークフローへのCopilot機能の組み込みが可能になった。
-- **[GitHub Copilot VS Code 2月リリース — エージェントメモリ・プラグイン機能が強化](https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release/)**: VS Code向けCopilotの最新リリースで、エージェントがセッション間で知識を共有・蓄積する「エージェントメモリ」機能が追加。拡張機能ビューから直接インストール可能なエージェントプラグインにも対応した。
-- **[IPA、「行政によるOSS公開活動の国際比較調査報告書」を公開](https://www.ipa.go.jp/digital/kaihatsu/oss/index.html)**: IPAは2026年3月4日、日本とグローバルの行政機関によるOSS公開活動を比較した報告書を公開。日本のOSS推進活動の現状と課題が示されており、官民のOSS協働に向けた指針となっている。
-- **[「AIとしてのテキスト」の時代は終わった — GitHubが実行駆動型AIの新時代を宣言](https://github.blog/ai-and-ml/github-copilot/the-era-of-ai-as-text-is-over-execution-is-the-new-interface/)**: GitHubは「AI as text」から「実行がインターフェース」へのパラダイムシフトを宣言。コーディングエージェントがコードを書くだけでなく、テスト実行・デバッグ・PR作成まで自律的に行う開発スタイルが主流になりつつある。
+- **[IPA「Japan Open Source Hub」3月更新 — 行政OSSの国際比較調査報告書を公開](https://www.ipa.go.jp/digital/kaihatsu/oss/index.html)**: IPAが行政によるOSS公開活動の国際比較調査報告書や「OSSの誤解を解く5つの処方箋」ガイドブックを新たに公開。OSPOレベル1構築ワークショップの成果発表会情報も追加。
+
+- **[LF Researchが日本のOSS利用実態レポートを公開 — 利用率は高いが貢献が少ない「二面性」が明らかに](https://thinkit.co.jp/article/38820)**: Linux Foundation Researchが国内OSSの利用状況を世界と比較した調査レポートを発表。日本産業界は利用率が高い一方でコミュニティへの貢献・還元が少ないという二面性が浮かび上がった。
+
+- **[GitHub Copilot CLIが強化 — エージェント機能・コンテキスト管理・新インストール方法に対応](https://github.blog/changelog/2026-01-14-github-copilot-cli-enhanced-agents-context-management-and-new-ways-to-install/)**: GitHub Copilot CLIがエージェント機能を拡張し、コンテキスト管理や新インストール方式を追加。CLIユーザーレベルの使用状況メトリクスも企業管理者向けに提供開始。
+
+- **[Copilot Usage MetricsがユーザーレベルのCLIアクティビティに対応](https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity/)**: GitHub Copilot利用メトリクスにCLI個別ユーザーのアクティビティデータが追加。エンタープライズ管理者がCLI活用状況を把握しやすくなる。
+
+- **[FastAPIとLangfuseがLLMOpsで注目 — AI組み込みWebアプリ開発の標準スタックとして普及](https://www.ipa.go.jp/archive/digital/kaihatsu/oss/news.html)**: PythonのモダンWebフレームワーク「FastAPI」とオープンソースLLMOpsプラットフォーム「Langfuse」がLLMを活用したプロダクション開発の標準スタックとして国内外で注目を集めている。
 
 ## 🔒 セキュリティ
 
-- **[Microsoft 2026年3月月例パッチ — 79件の脆弱性に対応、権限昇格・RCEに警戒](https://www.jpcert.or.jp/at/2026/at260005.html)**: マイクロソフトは3月10日に月例セキュリティ更新を公開し、79件の脆弱性を修正。43件が権限昇格、17件がリモートコード実行（RCE）に関するもので、JPCERT/CCが即時適用を強く呼びかけている。
-- **[Azure MCP Serverにも影響 — トレンドマイクロが今月の173件の脆弱性を解説](https://www.trendmicro.com/ja_jp/research/26/c/the-march-2026-security-update-review.html)**: 今月のパッチではSQL ServerでのSysadmin権限昇格、Azure MCP Serverでのマネージド ID権限取得リスク、Azure IoT ExplorerでのPII漏洩リスクが確認された。AIエージェント基盤への攻撃リスクが新たに顕在化している。
-- **[日本企業を標的にしたサイバー攻撃が増加 — 物流・製造・フィンテックで被害](https://www.ppln.co/post/japan-cyber-threat-report-2026-march-week1)**: 2026年3月前半、ダークウェブ上で日本企業の初期アクセス権販売が複数確認された。未修正のFortinet脆弱性を経由した侵害、技術図面の流出、S3バケット設定ミスによる約45,000件のPII漏洩などが報告されている。
-- **[Fortinet FortiWebに深刻な脆弱性（CVE-2025-64446）— 認証不要で管理者アカウント作成可能](https://www.security-next.com/)**: FortiWebの管理APIにパス・トラバーサル攻撃が可能な脆弱性が存在し、日本ターゲットのスキャン活動が確認されている。インターネット公開環境では緊急でバージョン8.0.2以上へのアップデートが必要。
+- **[Microsoft、3月パッチチューズデーで84件の脆弱性を修正 — 公知のゼロデイ2件含む](https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html)**: Microsoftが84件（Chromium含め93件）の脆弱性を修正。公知のゼロデイとして.NETのDoS脆弱性（CVE-2026-26127）とSQL Serverの特権昇格脆弱性（CVE-2026-21262）が含まれる。JPCERTおよびIPAも早急な適用を推奨。
+
+- **[APT28がMSHTMLゼロデイ（CVE-2026-21513）を悪用 — 2月パッチ適用前に攻撃が確認](https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html)**: ロシア国家関連のAPT28が悪意ある.LNKファイルを使ってMSHTMLのセキュリティ機能バイパス脆弱性（CVSS 8.8）を悪用。2月パッチで修正済みだが、パッチ適用前に実攻撃が行われていたことが明らかになった。
+
+- **[Azure MCP ServerにSSRF脆弱性（CVE-2026-26118、CVSS 8.8） — マネージドIDの権限奪取リスク](https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html)**: Azure Model Context Protocol（MCP）サーバーにSSRF脆弱性が発見。認証済み攻撃者がMCPサーバーのマネージドIDの権限を取得し、関連するAzureリソースへ不正アクセスできる恐れがある。
+
+- **[Adobe 3月アップデートで80件の脆弱性を修正 — Acrobat・Premiere Proも対象](https://www.trendmicro.com/ja_jp/research/26/c/the-march-2026-security-update-review.html)**: Adobeが8製品で80件の脆弱性に対処。Premiere Proでは任意コード実行につながる緊急脆弱性が修正されており、早期適用が推奨される。
+
+- **[国内でランサムウェア・不正アクセスが続発 — アドバンテスト・日本医科大など被害報告](https://scan.netsecurity.ne.jp/category/incident/)**: アドバンテスト・日本医科大学武蔵小杉病院・白梅豊岡病院がランサムウェアやサイバー攻撃被害を相次いで公表。医療・製造業を中心とした国内サイバー攻撃が続いており、対策強化が急務。
 
 ## 💡 今日のITトレンド考察
 
-2026年3月のIT業界を俯瞰すると、**「AIエージェントの実用化」**が最大のキーワードとなっている。
+2026年3月のITトレンドは、**「AIの実行化」と「国産AIの本格稼働」**という2つのキーワードで括れる。
 
-AIは「テキストを生成するツール」から「タスクを自律実行するエージェント」へと急速に進化しており、GitHubのCopilotはJiraチケットからプルリクエストを自動生成し、OpenAIはエンタープライズ向けエージェント管理プラットフォームを展開し始めた。その基盤として注目を集めているのが、AnthropicのMCP（Model Context Protocol）だ。OpenAI・Google・Microsoftが相次いで採用し、「AIのUSB-C」として業界標準の地位を確立しつつある。
+GitHubはCopilotを「テキスト補完ツール」から「実行エージェント」へと転換し、JetBrains・VS Code・Jiraなど主要開発環境への深い統合を進めている。AIがコードを書くだけでなく、ファイルを編集し、コマンドを実行し、外部サービスと連携してタスクを完遂する「エージェント時代」が現実のものとなりつつある。
 
-国内では、デジタル庁が国産LLM7モデルを政府システムの試用対象に選定し、AIの行政活用が具体的なフェーズに入った。NECの「cotomi」などが選ばれたことは、データ主権・セキュリティを重視した国産AI活用の意思を示すものだ。
+日本では、デジタル庁が国産LLM 7モデルを選定し、18万人規模の政府職員を対象とした大規模実証を開始。行政のDXが試験段階から本格運用フェーズへ移行する転換点となった。国産AIモデルが公共インフラを支える基盤として評価される初めての試みであり、2027年度の政府調達につながる重要なマイルストーンだ。
 
-セキュリティ面では、3月のMicrosoftパッチで79件の脆弱性が修正されるなど脅威が増加傾向にある。特にAIエージェントが活用するクラウドサービス（Azure MCP Serverなど）への攻撃リスクが新たに顕在化しており、エージェント時代のセキュリティ設計が急務となっている。エンジニアはAIによる開発効率化の恩恵を享受しつつ、急拡大するアタックサーフェスへの備えも怠らないことが求められる。
+セキュリティ面では、Microsoft・Adobe・ZoomへのパッチラッシュとAPT28によるゼロデイ悪用が重なり、パッチ管理の自動化と迅速な対応体制の構築が組織に求められている。特にAzure MCP ServerのSSRF脆弱性は、AIインフラ自体がサイバー攻撃の標的になるという新たなリスクを示しており、AIセキュリティの視点が今後ますます重要になる。
 
 ---
 
 ## 📚 アーカイブ
 
+- [2026-03-13](archive/2026-03-13.md)
 - [2026-03-12](archive/2026-03-12.md)
