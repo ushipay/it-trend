@@ -4,78 +4,76 @@ title: IT Trend Daily
 
 # 💻 IT Trend Daily
 
-> AIが毎日自動収集するITトレンドニュース｜最終更新: 2026-03-24
+> AIが毎日自動収集するITトレンドニュース｜最終更新: 2026-03-25
 
 ## 🤖 AI・機械学習
 
-- **[GPT-5.4リリース：自律的なコンピュータ操作機能を搭載](https://notai.jp/blog/gpt-5-4/)**: OpenAIが2026年3月5日に最新フラッグシップモデル「GPT-5.4」を発表。推論・コーディング・エージェント機能を1モデルに統合し、デスクトップ操作ベンチマーク「OSWorld」で人間の成功率（72.4%）を超える75.0%を記録した。ChatGPT Plus/Team/Pro/Enterpriseプランで即日利用可能。
+- **[政府職員向けAI基盤「源内」、18万人対象の実証開始 — 選定された国産LLMは？](https://www.itmedia.co.jp/enterprise/articles/2603/11/news042.html)**: デジタル庁は政府調達を前提とした生成AIプラットフォーム「源内」で使用する国産LLMとして、NTTグループの「tsuzumi 2」、ソフトバンクの「Sarashina2 mini」など7モデルを選定した。2026年8月頃から全府省庁約18万人の職員を対象とした実証運用を開始し、2027年初頭に結果を公表する予定。AI基本計画でも政府主導のAI活用が明示されており、行政DXの核心施策となっている。
 
-- **[Claude 4.6 Sonnet/Opus：Cross-OS Automationをベータ公開](https://www.hsworking.com/post/chatgpt-vs-gemini-vs-claude-comparison-2026)**: Anthropicが2026年3月17日、異なるOS（Mac・Windows・Linux等）をまたいで操作を継続できる「Cross-OS Automation」機能をベータ公開。Claude 4.6 Opusはマルチエージェント（チーム機能）による数時間単位の長期タスク遂行が可能で、100万トークンのコンテキストウィンドウにも対応。
+- **[NEC、最新LLM「cotomi v2」や高度な専門業務を自動化できるAIエージェントなどを発表](https://cloud.watch.impress.co.jp/docs/news/1643197.html)**: NECは最新LLMモデル「cotomi v2」と、専門業務の高度な自動化を目的としたAIエージェント製品群を発表した。企業のナレッジ活用や業務プロセス自動化への適用を想定しており、国産LLMの商用化競争が加速するなかNECは行政・産業分野での展開を強化している。
 
-- **[Gemini Flash-Liteリリース：応答速度45%向上](https://zenn.dev/emp_tech_blog/articles/ai-agent-comparison-daily)**: Googleが2026年3月にGemini Flash-Liteをリリース。従来のFlashモデルと比較して応答速度が45%向上。Gemini 3.1 Proは科学推論（GPQA Diamond 94.3%）と抽象推論（ARC-AGI-2 77.1%）でトップクラスのスコアを記録。
+- **[Google、マルチエージェントアーキテクチャのスケーリング原則を公開](https://www.infoq.com/news/2026/03/google-multi-agent/)**: GoogleとMITの研究チームは、マルチエージェントシステムのスケーリングに関する予測フレームワークを論文で公表した。エージェント間の協調方式を独立型・集中型・分散型・ハイブリッド型の4カテゴリに分類し、各構成における性能特性を分析している。AIエージェントの本番環境導入が加速する2026年において、設計指針として注目される内容となっている。
 
-- **[NECのLLM「cotomi v3」がガバメントAIに選定](https://jpn.nec.com/press/202603/20260309_03.html)**: デジタル庁が実施する「ガバメントAIで試用する国内大規模言語モデル（LLM）の公募」で、NEC開発の「cotomi v3」が選定された。政府の生成AI利用環境「源内（げんない）」において行政実務への適合性評価が行われる。
+- **[AGENTS.md ファイルの価値を再評価 — LLM生成の指示ファイルはエージェントの性能を下げる](https://www.infoq.com/news/2026/03/agents-context-file-value-review/)**: ETH Zurichの研究チームは、AIコーディングエージェントへの指示ファイルAGENTS.mdをLLMで自動生成した場合、平均3%の成功率低下と推論コスト20%超の増加をもたらすと報告した。人間が手書きした非自明な手順のみに限定すべきであり、LLM生成のコンテキストファイルは使用しないことを推奨している。
 
-- **[楽天「Rakuten AI 3.0」を提供開始 — 7,000億パラメータ日本語LLMをオープン公開](https://ledge.ai/)**: 楽天はGENIAC発の7,000億パラメータ日本語LLMを含む「Rakuten AI 3.0」の提供を開始。日本語性能に優れた大規模モデルをオープンソースとして公開し、国内AI開発エコシステムの強化を図る。
+- **[Luma、新モデル「Unified Intelligence」搭載のクリエイティブAIエージェントを発表](https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/)**: Lumaはテキスト・画像・動画・音声を横断するエンドツーエンドのクリエイティブ制作を自律実行するAIエージェント「Luma Agents」を発表した。複数のAIシステムを統合した独自の「Unified Intelligence」モデルが基盤となっており、単一の指示から複合的なコンテンツを生成できる。
 
-- **[AIエージェントが実運用フェーズへ：企業導入が本格化](https://sorimachi.co.jp/column/gadget/20260216_01/)**: 2026年のAIトレンドはエージェントの実運用・学習データと著作権整理・推論コストと電力制約・企業ITへの組み込みの4点に集約される。AIエージェントは「試す段階」から「同僚として機能する段階」へと移行しつつある。
+- **[Cloudflare、AIクローラー向け「Markdown for Agents」とコンテンツシグナル機能を導入](https://www.infoq.com/news/2026/03/cloudflare-crawler/)**: CloudflareはAIクローラーがWebページのMarkdown版をリクエストできる新機能「Markdown for Agents」と、パブリッシャーがコンテンツのAI学習・検索利用・推論利用の可否を宣言できる「Content Signals」機能を発表した。AIエージェントによるWeb情報収集の効率化を狙うものだが、Google側からはLLMがHTMLや画像を直接処理できるため不要との批判も出ている。
 
-- **[軽量モデル（SLM）とオンプレミス運用が2026年のスタンダードに](https://jp.ext.hp.com/techdevice/ai/ai_explained_43/)**: DeloitteのTMT予測では2026年のAIコンピュートの約2/3が推論用途となり、クラウドの大規模モデルとオンプレの軽量モデルを使い分ける二層構造が自治体・医療・金融などの分野で主流化していると報告。
+- **[CrowdStrike「グローバル脅威レポート 2026」、AIを使った攻撃とAIへの攻撃の両方を観測](https://cloud.watch.impress.co.jp/docs/news/2095104.html)**: CrowdStrikeは2026年版脅威レポートを公表し、攻撃者によるAI活用の増加、侵入から横展開までのブレークアウトタイムが平均29分に短縮、ゼロデイ脆弱性の悪用が前年比42%増という実態が明らかになった。AIを攻撃インフラとして活用する国家支援型脅威アクターの動きも確認されている。
 
 ## ☁️ クラウド・インフラ
 
-- **[クラウドシェア：AWS 29%・Azure 22%・GCP 12% — AI投資で競争激化](https://www.publickey1.jp/blog/25/aws30azure2220251synergy_research.html)**: 2025年第1四半期のクラウドインフラ市場でAWSのシェアが初めて30%を切りつつあり、AzureとGCPが着実に成長。Canalysは2025年を通じて市場が19%成長すると予測しており、各社のAI基盤への投資競争が続く。
+- **[クラウドインフラのシェア、AWSが再び30%を切って29%に。Googleが13%へと成長。](https://www.publickey1.jp/blog/25/aws3029google1320253synergy_research.html)**: Synergy Research Groupの調査によると2025年第3四半期のクラウドインフラ市場シェアはAWS 29%、Azure 20%、Google Cloud 13%となった。AWSのシェアは緩やかに低下傾向にある一方、Google CloudとAzureはAI需要を背景に着実に伸長しており、市場全体は前年同期比23%成長している。
 
-- **[Google Cloud：Vertex AIとTPUを軸にAI・データ分析強化](https://zenn.dev/milmed/articles/edee5b170fa652)**: GCPはBigQuery・Vertex AI・AutoML・TPU（Tensor Processing Units）を軸にAI/ML分野の競争力を強化。マルチクラウド戦略を支えるAnthosの普及も推進し、企業の異種クラウド管理をサポート。
+- **[AWSがGoogle Cloudとの高速接続を発表「AWS Interconnect」プレビュー開始](https://www.publickey1.jp/blog/25/awsgoogle_cloudazureaws_interconnect.html)**: AWSはクラウドプロバイダー間を専用帯域幅で直接接続する「AWS Interconnect」のプレビューを開始した。最初の接続先はGoogle Cloudで、2026年後期にはMicrosoft Azureとの接続も予定されており、マルチクラウド環境の相互運用性向上を意識した取り組みとして注目されている。
 
-- **[Microsoft Azure：OpenAI連携でエンタープライズAI市場をリード](https://genee.jp/contents/major-cloud-services/)**: AzureはAzure OpenAI ServiceとCopilotによる生成AI統合サービスでエンタープライズ市場の先頭を走る。Azureは過去5年でシェアを15%から22%へと拡大しており、AI特化型サービスの充実が大きな差別化要因となっている。
+- **[QCon London 2026: 1台のサーバーに100万個のサンドボックスを詰め込む](https://www.infoq.com/news/2026/03/qcon-million-sandboxes-server/)**: UnikraftのCEO Felipe HuiciがQCon 2026で、1台のコモディティサーバー上で100万個のVMを10ミリ秒以内に起動するデモを披露した。FirecrackerとVMスナップショットを組み合わせたアーキテクチャにより、速度・密度・強力な分離の3要件を同時に実現できると主張している。
 
-- **[クラウド市場2034年に5兆ドル超へ — 生成AIが成長エンジン](https://vpshikaku.com/public_cloud/)**: Precedence Researchによれば、世界クラウド市場は2025年の9,128億ドルから2034年には5兆1,509億ドルへと急拡大する見込み。生成AIの爆発的普及がクラウドインフラ需要の主要ドライバーとなっている。
+- **[AIは企業が使うOSSを救うのか、壊すのか？GitHubが説く2026年のOSS生存戦略](https://atmarkit.itmedia.co.jp/ait/articles/2603/24/news051.html)**: GitHubは2026年のOSSが「どれだけ成長するか」から「成長をどう持続可能にするか」へと焦点が移っていると分析した。2025年にはGitHubへの参加開発者が約3,600万人増加した一方、AIが生成する大量の低品質コントリビューションがメンテナーの負担増加という新たな課題を生んでいる。
+
+- **[APIプラットフォームUnkey、パフォーマンス問題を受けてサーバーレスから撤退](https://www.infoq.com/news/2025/12/unkey-serverless/)**: API管理プラットフォームのUnkeyは、サーバーレスアーキテクチャが高スループット・低レイテンシが求められる本番ワークロードに適していないと判断し、サーバーレスからの移行を決断した。イベント駆動・間欠的ワークロードには有効だが、ステートフルな高スループット処理には向かないという認識が広まりつつある。
 
 ## 🛠️ ソフトウェア開発
 
-- **[GitHub Copilot：Figma MCP Server対応でデザイン↔コード双方向ワークフロー実現](https://www.ai-souken.com/article/github-copilot-updates-2026)**: GitHub Copilotが2026年3月にFigma MCP Serverに対応。VS CodeからFigmaのデザインコンテキストをコードベースに取り込み、レンダリングしたUIを編集可能なフレームとしてFigmaに送り返すことも可能になった。
+- **[Java News Roundup: JDK 26 GA リリース、Spring Framework、Payara 2026年3月版](https://www.infoq.com/news/2026/03/java-news-roundup-mar16-2026/)**: Oracleが2026年3月17日にJDK 26のGA版をリリースし、10本のJEPを含む新機能が正式に提供された。同週にはBellSoft LibericaJDK、Payara Platform 2026年3月版、GlassFishマイルストーン版なども公開されている。
 
-- **[GitHub Copilot CLI がGA：Plan・Autopilotモードで自律的な開発支援](https://www.ai-souken.com/article/what-is-copilot-cli)**: 2026年2月にGAとなったGitHub Copilot CLIは、チャット・Plan・Autopilotの3モードを搭載するターミナルネイティブのAIコーディングエージェント。MCP統合・カスタムエージェント・Hooksなどの拡張機能も備え、フルスタックのAI開発プラットフォームへと進化。
+- **[GitHubブログ: 2026年のオープンソースに何が起きるか](https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/)**: GitHubはOctoverse 2025のデータをもとに2026年のOSSの方向性を分析し、2025年8月にはTypeScriptがPythonとJavaScriptを超えてGitHub上で最も使われる言語になったと報告した。メンテナー不足が深刻な構造課題として浮上しており、OSSの持続可能性がコミュニティ全体の課題となっている。
 
-- **[Agent HQ：複数AIコーディングエージェントをGitHubから一元管理](https://bloomeria.jp/blog/what-is-github-copilot)**: GitHubが「Agent HQ」を発表。GitHub Copilot・Claude coding agent・OpenAI Codex agentなど複数社のAIエージェントをGitHub上から直接割り当て・追跡できる統合管理機能で、マルチエージェント開発環境の中心的存在になりつつある。
+- **[Microsoft Agent Framework プレビュー公開 — AIエージェント開発を容易にするオープンソースSDK](https://www.publickey1.jp/blog/25/mcpa2aaimicrosoft_agent_framewok.html)**: MicrosoftはSemantic KernelとAutoGenを統合し、MCP・A2Aプロトコルに対応したAIエージェント開発フレームワーク「Microsoft Agent Framework」のプレビューを公開した。オープンソースとして提供されることで、エンタープライズ向けエージェント開発の標準化ツールとなることが期待されている。
 
-- **[IPA：行政OSSの国際比較調査報告書を公開](https://www.ipa.go.jp/digital/kaihatsu/oss/index.html)**: IPAが2026年3月4日、「行政によるオープンソースソフトウェア公開活動の国際比較調査報告書」を公開。日本のOSS活用は産業界で「驚くべき二面性」が指摘されており、OSPOレベル1構築ワークショップも推進中。
+- **[日本企業は「OSSには価値がある」と実感も、体制整備に課題](https://atmarkit.itmedia.co.jp/ait/articles/2601/06/news047.html)**: Linux Foundation Japanが公開した「日本のオープンソースの現状2025」によれば、日本企業の多くがOSSの価値を認識しているものの、OSPO設置は41%、明確なOSS戦略策定は39%にとどまっている。企業がOSSを戦略的に活用するための体制構築が急務となっている。
 
-- **[大阪大学・富士通・TIS・セックが量子コンピュータ基盤ソフトウェアをOSS公開](https://news.mynavi.jp/techplus/tag/oss/)**: 大阪大学・富士通・TIS・セックが共同で量子コンピュータの基盤ソフトウェアをオープンソースとして公開。量子コンピューティング分野におけるOSS活動が国内でも活発化している。
-
-- **[PythonがTIOBEインデックス1位を維持：AI開発での活用が牽引](https://thinkit.co.jp/article/38820)**: TIOBE INDEXにおいてPythonがC言語・C++・Javaを抑えて首位を継続。AI/ML開発での圧倒的な採用実績と豊富なOSSエコシステムが支持の主因となっており、2026年もこの傾向が続く見込み。
+- **[Devnexus 2026: AI、コアJava、フレームワーク、セキュリティ、キャリアメンタリングに焦点](https://www.infoq.com/news/2026/03/devnexus-2026/)**: 北米最大規模のJavaカンファレンスDevnexus 2026が開催され、AIとJavaの統合、JDK 26の新機能、セキュリティベストプラクティスなどが主要テーマとなった。LangChain4jやSpring AI、Quarkusを用いたLLM連携の実装セッションが特に注目を集めた。
 
 ## 🔒 セキュリティ
 
-- **[Microsoft月例パッチ（2026年3月）：79件の脆弱性を修正、権限昇格43件・RCE17件](https://www.jpcert.or.jp/at/2026/at260005.html)**: マイクロソフトが2026年3月10日に月例セキュリティ更新プログラムを公開。Windows・Office・Azure・SQL Server等広範な製品に対応し、.NETのサービス拒否（CVE-2026-26127）とSQL Serverの特権昇格（CVE-2026-21262）の早急な適用が呼びかけられている。
+- **[IPA「情報セキュリティ10大脅威 2026」発表 — AIリスクが初登場で3位にランクイン](https://atmarkit.itmedia.co.jp/ait/articles/2603/03/news057.html)**: IPAが公表した「情報セキュリティ10大脅威 2026」（組織編）では、4年連続1位のランサムウェア攻撃、2位のサプライチェーン攻撃に続き、「AIの利用をめぐるサイバーリスク」が初登場で3位にランクインした。AI悪用による攻撃の容易化・巧妙化と、AIへの不十分な理解による情報漏えいリスクの両面が脅威として認識されている。
 
-- **[Google Chrome：重大な脆弱性26件を修正するセキュリティアップデート](https://www.security-next.com/181979)**: Googleが2026年3月18日、Chromeのセキュリティアップデートを公開し、クリティカルを含む26件の脆弱性を修正。Chromeを利用しているすべてのユーザーに対して速やかなアップデートが推奨される。
+- **[重大なLangflow脆弱性 CVE-2026-33017、公開から20時間以内に攻撃を受ける](https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html)**: オープンソースのAI開発プラットフォームLangflowに認証欠如とコードインジェクションを組み合わせたCVSS 9.3のRCE脆弱性が発見され、公開後わずか20時間以内に実際の攻撃に悪用された。バージョン1.8.1以前のすべてのインストールが対象であり、即時のアップデートが推奨されている。
 
-- **[Cisco Secure FMCの脆弱性CVE-2026-20131が実際に悪用中](https://www.security-next.com/)**: 「Cisco Secure Firewall Management Center（FMC）」の脆弱性「CVE-2026-20131」が実際の攻撃に悪用されていることが2026年3月19日に確認。CiscoのFMCを運用している組織は直ちにパッチ適用が必要。
+- **[APT28がMicrosoft MSHTMLゼロデイ CVE-2026-21513（CVSS 8.8）を悪用](https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html)**: ロシア連邦政府と関連するAPT28（Fancy Bear）が、MicrosoftのMSHTMLフレームワークのセキュリティ機能バイパス脆弱性CVE-2026-21513をPatch Tuesday修正前から悪用していたことが判明した。国家支援型脅威アクターによるゼロデイ先取り悪用が常態化していることを示す事例となった。
 
-- **[米当局：SharePoint・ZimbraのN-day脆弱性悪用に警告、3日以内の対応を要求](https://cybersecurity-jp.com/news)**: 米当局がMicrosoft SharePointとZimbra Collaboration Suiteの既知脆弱性が積極的に悪用されているとして注意喚起。特にSharePointについては3日以内の対応完了を求めており、組織のセキュリティ優先度が問われる。
+- **[Google、Chromeのゼロデイ2件を修正 — Skia・V8エンジンの脆弱性が実際に悪用されていた](https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html)**: GoogleはChromeブラウザのSkiaグラフィックエンジンとV8 JavaScriptエンジンに存在するゼロデイ脆弱性2件を修正し、バージョン146.0.7680.75/76へのアップデートを強く推奨している。CISAは「既知の悪用済み脆弱性」カタログに追加し、連邦政府機関に対して期限付きでの対応を義務付けた。
 
-- **[メディカ出版がランサムウェア攻撃被害を公表：情報漏えいも発生](https://www.security-next.com/)**: 株式会社メディカ出版が2026年3月17日、第三者によるランサムウェア攻撃によるシステム障害と情報漏えいを公表。医療・出版分野でのランサムウェア被害が継続しており、バックアップ体制の見直しが急務。
+- **[Oracle Identity Managerの重大脆弱性 CVE-2026-21992（CVSS 9.8）— 認証不要のRCEが可能](https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html)**: OracleはIdentity Managerに存在するCVSS 9.8の重大脆弱性CVE-2026-21992を修正するセキュリティパッチを公開した。認証不要でHTTP経由の攻撃が可能であり、悪用に成功した場合は完全なRCEが可能となるため、優先度の高いパッチ適用が求められる。
 
-- **[東京大学・岩谷産業で不正アクセス被害：共同研究者アカウント経由の侵入も](https://www.security-next.com/)**: 岩谷産業が2026年3月16日にグループシステムへの不正アクセスを公表。東京大学は共同研究者のアカウントを経由したサイバー攻撃を確認（3月10日公表）。サプライチェーン・外部委託先経由の攻撃リスクが改めて浮き彫りに。
-
-- **[Spring AI・Angularに新たな脆弱性：XSSにつながる高深刻度CVEが発見](https://www.ipa.go.jp/security/security-alert/2025/0311-ms.html)**: Spring AI（Java/Spring向けAIフレームワーク）に2件の脆弱性が公表され、Angular（CVE-2026-32635）にもクロスサイトスクリプティングにつながる高深刻度の脆弱性が発見された。AI系フレームワークを含む依存ライブラリの脆弱性管理が重要性を増している。
+- **[Cisco SD-WANゼロデイ CVE-2026-20127（CVSS 10.0）、2023年から管理者権限奪取に悪用されていた](https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html)**: Cisco Catalyst SD-WAN ControllerおよびManagerに最大深刻度CVSS 10.0の認証バイパス脆弱性が発見され、2023年から実際の攻撃に悪用されていたことが判明した。CISAがKEVカタログに追加し連邦機関に修正を義務付けた。
 
 ## 💡 今日のITトレンド考察
 
-2026年3月のITシーンを俯瞰すると、**AIの「実用化フェーズ」への移行**が最大のキーワードだ。GPT-5.4がコンピュータ操作で人間を超え、ClaudeがCross-OS Automationを展開し、GitHub CopilotはAgent HQで複数エージェントの統合管理へと踏み込んだ。AIは「使うツール」から「共に働く存在」へと変わりつつある。
+2026年3月25日のITトレンドを俯瞰すると、**AIの産業・行政実装の加速**と**AIがもたらす新たなリスクへの対応**という二極が同時進行していることが際立つ。
 
-クラウド市場ではAIインフラ投資競争が激化し、AWSのシェア低下とAzure・GCPの追い上げが鮮明だ。日本国内ではNECのcotomi v3がガバメントAIに選定され、楽天が7,000億パラメータLLMをオープン公開するなど、国産AI基盤の整備も着実に進んでいる。
+日本では政府職員18万人を対象としたAI基盤「源内」の実証が始まり、NECの「cotomi v2」など国産LLMの商用化競争も本格化している。一方でIPAの「10大脅威 2026」にAIリスクが初登場したことや、LangflowのRCE脆弱性が公開後20時間以内に悪用された事例は、AIツールの普及スピードがセキュリティ対応を上回りつつあることを示している。
 
-一方でセキュリティリスクも高まる一方だ。Microsoft・Chrome・Cisco・SharePointへの攻撃が相次ぎ、東京大学や岩谷産業への侵入はサプライチェーン経由のリスクを改めて示した。AI系フレームワーク（Spring AI・Angular）にも脆弱性が相次いで発見されており、AI活用の加速とセキュリティ管理の強化は表裏一体の課題となっている。
+インフラ領域ではAWSがGoogle Cloudと専用線接続する「AWS Interconnect」が登場し、クラウド間の相互接続が新たな標準となりつつある。国家支援型攻撃グループAPT28によるMSHTMLゼロデイ悪用やCVSS 10.0のCisco SD-WANゼロデイなど、ネットワーク・認証インフラを狙った高度な攻撃が継続しており、パッチ管理の迅速化とゼロトラスト設計の重要性が改めて浮き彫りとなった。
 
-エンジニアにとっては、AIエージェントの活用スキル習得・クラウドAIサービスの適切な選択・依存ライブラリの脆弱性管理、この3点が2026年の重要なアクションアイテムと言えるだろう。
+開発者にとっては、JDK 26リリースやMicrosoft Agent Frameworkの登場がエコシステムの刷新を促している。AIがOSSコントリビューションの大量低品質化を引き起こしているという指摘は、今後のコードレビューとメンテナンス体制の在り方に根本的な問いを投げかけている。
 
 ---
 
 ## 📚 アーカイブ
-
+- [2026-03-25](archive/2026-03-25.md)
 - [2026-03-24](archive/2026-03-24.md)
 - [2026-03-23](archive/2026-03-23.md)
 - [2026-03-22](archive/2026-03-22.md)
