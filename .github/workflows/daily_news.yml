@@ -2,7 +2,7 @@ name: Daily News Agent
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎朝9時 JST（UTC 0時）
+    - cron: '0 0 */5 * *'  # 毎朝9時 JST（UTC 0時）
   workflow_dispatch:      # 手動実行も可能
 
 permissions:
