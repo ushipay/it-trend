@@ -4,64 +4,67 @@ title: IT Trend Daily
 
 # 💻 IT Trend Daily
 
-> AIが毎日自動収集するITトレンドニュース｜最終更新: 2026-03-26
+> AIが毎日自動収集するITトレンドニュース｜最終更新: 2026-03-31
 
 ## 🤖 AI・機械学習
 
-- **[NECのLLM「cotomi v3」、政府の「ガバメントAI」に選定](https://jpn.nec.com/press/202603/20260309_03.html)**: NECが開発した国産LLM「cotomi v3」が、デジタル庁の「ガバメントAI」向けLLM公募で正式選定された。政府はプロジェクト「源内」として、政府職員全体が利用できる生成AI環境を整備し、国内LLMの実用性を検証する。
+- **[ローカルLLMが金融業界に本格導入 — 常陽銀行向けJOYO AI AGENT](https://prtimes.jp/main/html/rd/p/000000021.000141002.html)**: 松尾研発スタートアップ「Athena Technologies」が常陽銀行向けにローカルLLMを活用した業務特化型エージェント「JOYO AI AGENT」を提供。機密情報を外部送信せずに翻訳・マスキング機能を実現し、金融業界における情報漏洩リスクを排除しながらAI活用を実証した事例として注目される。
 
-- **[楽天「Rakuten AI 3.0」公開・7,000億パラメータ日本語LLMをオープン化](https://ledge.ai/)**: 楽天がGENIAC発の7,000億パラメータ規模の日本語LLM「Rakuten AI 3.0」の提供を開始し、オープン公開した。国内最大級規模の日本語特化モデルとして注目を集めている。
+- **[NECのLLM「cotomi v3」がデジタル庁のガバメントAIに選定](https://jpn.nec.com/press/202603/20260309_03.html)**: NECが開発した「cotomi v3」が政府のガバメントAI公募に正式選定。政府職員向け生成AI環境「源内（げんない）」で国産LLMの実用性を検証する取り組みが本格化している。
 
-- **[ChatGPTのシェアが64.5%に低下、GeminiはAIアシスタント市場で21.5%まで急成長](https://note.com/it_navi/n/n5c48911872df)**: 2025年初頭に86.7%だったChatGPTの市場シェアが2026年1月には64.5%まで低下。GoogleのGeminiは5.7%から21.5%へと4倍以上に成長し、DeepSeekやGrokなど新興勢力も台頭している。
+- **[GPT-5.4がGitHub Copilotで一般提供開始](https://github.blog/changelog/2026-03-05-gpt-5-4-is-generally-available-in-github-copilot/)**: OpenAIの最新エージェント向けコーディングモデル「GPT-5.4」がGitHub Copilotに統合。論理推論と複数ステップのタスク実行能力が大幅に向上し、Pro以上の全プランで利用可能となった。
 
-- **[AIエージェント元年：「ツール」から「デジタル同僚」へ本格進化](https://blog.ksc.co.jp/si_ai2026trend/)**: 2026年は曖昧な目標を与えるだけで自律的にワークフローを完遂するAIエージェントが本格普及する年となっている。企業はAIエージェントを含むハイブリッドな労働力管理を迫られており、AIを活用できる企業とできない企業の差が明確化しつつある。
+- **[Claude Code が#1 AIコーディングツールに — SWE-bench 80.8%](https://www.anthropic.com/news/claude-4)**: AnthropicのClaude Code（Opus 4.6）がSWE-benchで80.8%を達成しトップに。100万トークンのコンテキストと高度なエージェント機能、GitHub ActionsとのCI/CD連携も一般提供が開始された。
 
-- **[Anthropic、Claude Codeの承認自動化を拡張する「auto mode」をリサーチプレビュー提供](https://ai-insight.jp/news/)**: AnthropicはClaude Codeの新モード「auto mode」のリサーチプレビューを開始。AIコーディングエージェントの自律性を高め、承認プロセスを大幅に自動化する機能を提供する。
+- **[AIエージェントが「デジタル同僚」へ — 企業の62%が関心、展開は23%にとどまる](https://jp.ext.hp.com/techdevice/ai/ai_explained_44/)**: 自律的にワークフローを完遂するAIエージェントが本格普及。人間とAIを含むハイブリッド労働力の管理が新たな経営課題となっている。
+
+- **[AI法規制が「法的拘束力」へ移行 — EU AI Act対応が急務](https://jp.ext.hp.com/techdevice/ai/ai_explained_44/)**: AI規制がガイドラインから法的拘束力のある義務へと移行。EU市場向けサービスを持つ企業はリスク分類の棚卸が必須となっている。
 
 ## ☁️ クラウド・インフラ
 
-- **[AWSのクラウド市場シェアがついに30%を切る、Azureは22%と着実に成長](https://www.publickey1.jp/blog/25/aws30azure2220251synergy_research.html)**: Synergy Researchの調査によると、2025年第1四半期にAWSのシェアが初めて30%を下回った。AzureはMicrosoft製品との連携強化とAzure OpenAI Serviceの拡充でシェアを伸ばしており、AI時代のクラウド競争が激化している。
+- **[Kubernetes v1.36 リリース準備完了 — KubeCon EU 2026で発表相次ぐ](https://tldr.tech/devops/2026-03-23)**: v1.36.0が4月22日リリース予定でコードフリーズ完了。AIエージェント向けSandbox CRDとIngress2Gateway 1.0がKubeCon EU 2026で発表された。
 
-- **[Google Cloud「Vertex AI」がAI開発のワンストップ基盤として存在感を拡大](https://zenn.dev/milmed/articles/edee5b170fa652)**: GCPのVertex AIは機械学習モデルの開発から本番運用まで統合対応し、AI開発者からの支持を集めている。TensorFlowとの相性の良さから、AI・データ処理分野でのGCPシェア拡大につながっている。
+- **[クラウドネイティブ開発者が世界で1990万人に — CNCF Q1 2026報告](https://www.cncf.io/blog/2026/01/19/top-28-kubernetes-resources-for-2026-learn-and-stay-up-to-date/)**: コンテナ技術を採用・評価中の組織が90%超。GitOpsとAIエージェントの融合が次の波となっている。
 
-- **[推論コンピュートが2026年のAIクラウド需要の2/3を占める見通し](https://sorimachi.co.jp/column/gadget/20260216_01/)**: Deloitteの予測では、2026年のAIコンピュート需要のうち約2/3が推論用途となる見通し。エッジ・オンプレで動く軽量モデルへの需要増大が、クラウドプロバイダのインフラ戦略を変えつつある。
+- **[Docker 2026ロードマップ — AI内蔵デバッグ・WebAssembly対応を強化](https://dohost.us/index.php/2026/03/26/the-docker-roadmap-for-2026-whats-new-in-container-orchestration/)**: Docker DesktopにAIエージェントによるDockerfile最適化提案機能を内蔵。WebAssemblyのfirst-class citizen対応やエッジコンピューティング強化も進める。
 
-- **[日本政府のガバメントクラウド活用が加速、高信頼性インフラを整備](https://vpshikaku.com/public_cloud/)**: 日本の政府・自治体での認定パブリッククラウド活用が進み、高可用性の政府向けインフラ整備が加速している。少子高齢化による行政人材不足を補う手段として、クラウドとAIの組み合わせが注目されている。
+- **[クラウド市場シェア: AWSが30%を割る — AzureとGCPが成長継続](https://www.publickey1.jp/blog/25/aws30azure2220251synergy_research.html)**: AWSシェアが29%に低下（ピーク比5ポイント減）、Azureが22%・GCPが12%。AzureのOpenAI統合とGCPのAI特化戦略が奏功している。
 
 ## 🛠️ ソフトウェア開発
 
-- **[GitHub Copilot Coding Agentにセマンティックコード検索が追加、タスク完了速度が向上](https://github.blog/changelog/2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search/)**: GitHub Copilot coding agentがセマンティックコード検索ツールを搭載。意味に基づくコード探索が可能になり、タスク完了時間が2%短縮された。設定変更不要でエージェントが自動的に活用する。
+- **[GitHub Copilotのエージェントモードが JetBrains でも GA — Java/Kotlin 開発者にも解放](https://www.nxcode.io/resources/news/github-copilot-complete-guide-2026-features-pricing-agents)**: 2026年3月、エージェントモードがJetBrains IDEで一般提供開始。エージェント型コードレビューが修正PRを自動生成する機能も搭載された。
 
-- **[GitHub Copilot、JetBrains IDEでの自動モデル選択がGA（一般提供）に](https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides/)**: JetBrains IDEでGitHub Copilotの自動モデル選択機能が正式リリース。GPT-5.4、GPT-5.3-Codex、Claude Sonnet 4.6、Haiku 4.5など複数モデルをリアルタイムの性能・可用性に基づき自動選択する。
+- **[LF Research「世界のオープンソースの現状 2025」— OSSはミッションクリティカルなインフラへ](https://thinkit.co.jp/article/39056)**: 851名調査でOSSの価値を実感している組織が46%に上昇。生産性向上（86%）・ベンダーロックイン軽減（84%）・コスト削減（84%）が主な評価ポイント。
 
-- **[GitHub Copilot Coding AgentがJira連携のパブリックプレビューを開始](https://github.blog/changelog/2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview/)**: JiraのIssueをGitHub Copilot coding agentにアサインするだけで、AIがIssue内容を解析し自律的にドラフトPRを作成する機能がパブリックプレビュー入り。バグ修正やドキュメント更新などの反復タスクを加速する。
+- **[IPA「Japan Open Source Hub」更新 — 行政OSS国際比較調査を公開](https://www.ipa.go.jp/digital/kaihatsu/oss/index.html)**: 行政によるOSS公開活動の国際比較調査報告書が公開され、政府・自治体レベルのOSSガバナンス整備が本格化している。
 
-- **[GitHub Copilot SDK、Node.js/Python/Go/.NETでのエージェントワークフロー構築を支援](https://www.infoq.com/news/2026/02/github-copilot-sdk/)**: GitHub Copilot SDKがテクニカルプレビューとして公開。Copilot CLIのエンジン（プランナー・ツールループ・ランタイム）を自社アプリに組み込み可能になり、Node.js、Python、Go、.NETを公式サポートする。
-
-- **[Linux Foundation調査「日本のOSS利用の現状2025」で日本のOSS活用の二面性が明らかに](https://thinkit.co.jp/article/38820)**: Linux Foundation Researchの最新レポートが日本の産業界におけるOSS活用実態を世界と比較・分析。OSSへの高い依存度と、サプライチェーンリスクへの対策遅れという二面性が浮き彫りになっている。
+- **[GitOpsがKubernetesデプロイの事実上の標準に — ArgoCD 3.0リリース](https://shyam.kubeify.com/2026/03/latest-devops-cloud-news-24-march-2026.html)**: GitOpsが2026年の標準手法として確立し、ArgoCD 3.0がマルチテナント・RBAC強化・プログレッシブデリバリーをネイティブサポート。
 
 ## 🔒 セキュリティ
 
-- **[Langflow（AIエージェントプラットフォーム）に深刻な脆弱性、悪用も確認](https://www.security-next.com/181979)**: AIエージェント・ワークフロー構築プラットフォーム「Langflow」に深刻な脆弱性が明らかになり、すでに悪用が確認されている。AIツールを標的にした攻撃が増加しており、早急なアップデートが推奨される。
+- **[Microsoft 2026年3月パッチ — 93件の脆弱性に対応、特権昇格が最多](https://www.trendmicro.com/ja_jp/research/26/c/the-march-2026-security-update-review.html)**: SQL Serverのsysadmin昇格、Azure MCP Serverのマネージド ID 権限奪取など特権昇格の脆弱性が急増。CVE-2026-26127等はパッチ公開前に一般公開されており早急な適用が必要。
 
-- **[Microsoftが3月月例パッチを公開、脆弱性79件に対処（うち2件は事前流出）](https://www.jpcert.or.jp/at/2026/at260005.html)**: Microsoftは2026年3月10日に月例パッチを公開し、Windows・Office・Azure・SQL Serverなど幅広い製品の脆弱性79件に対処した。.NETのDoS脆弱性（CVE-2026-26127）とSQL Serverの特権昇格脆弱性（CVE-2026-21262）は詳細が事前に流出しており、早急な適用が必要。
+- **[NGINX に深刻な脆弱性 — サーバープロセスクラッシュの危険](https://www.security-next.com/)**: 3月24日に発見された致命的な脆弱性により、世界中のNginxサーバーが影響を受ける。早急なバージョンアップが推奨されている。
 
-- **[NetScaler ADC/Gatewayに深刻な脆弱性、最新版へのアップデートを呼びかけ](https://www.security-next.com/)**: 旧Citrix製品「NetScaler ADC」および「NetScaler Gateway」に深刻な脆弱性が確認された。エンタープライズネットワーク境界で広く使われている製品であり、早急な対応が必要とされている。
+- **[Trivyの配布環境が侵害 — 悪意あるコード混入、認証情報窃取の恐れ](https://www.security-next.com/)**: OSSセキュリティスキャナ「Trivy」の配布環境が3月27日に侵害。サプライチェーン攻撃がセキュリティツール自体を標的にする新たな脅威が顕在化した。
 
-- **[IPA「情報セキュリティ10大脅威 2026」発表、AIエージェントが新たな攻撃ベクターに](https://www.ipa.go.jp/security/10threats/10threats2026.html)**: IPAが約250名の専門家による審議・投票を経て「情報セキュリティ10大脅威 2026」を発表。ChromeのAI機能を突く「Glic Jack（CVE-2026-0628）」に代表される、AIエージェントを標的にした意味論的な脆弱性が新たな脅威として台頭している。
+- **[国内企業へのサイバー攻撃が多発 — ランサムウェア・不正アクセスが相次ぐ](https://cybersecurity-jp.com/news)**: 大日精化工業・メディカ出版・サクラ工業・東京大学など複数の組織が3月中に被害を公表。サプライチェーン経由の侵入とランサムウェアが主流の攻撃手法となっている。
 
-- **[国内企業へのランサムウェア攻撃が続出：メディカ出版・東京大学・村田製作所など被害](https://note.com/clever_chives813/n/n002b74812560)**: 2026年3月、メディカ出版・東京大学・東京都教育委員会・村田製作所など多数の国内組織がランサムウェアや不正アクセス被害を報告した。サプライチェーンを経由した攻撃が目立っている。
+- **[IPA「情報セキュリティ10大脅威 2026」発表](https://www.ipa.go.jp/security/10threats/10threats2026.html)**: 約250名の専門家によるランキングでランサムウェアとサプライチェーン攻撃が引き続き上位。2025年の実際のインシデントをもとに優先度を整理した年次報告書。
 
 ## 💡 今日のITトレンド考察
 
-2026年3月26日現在、IT業界全体を貫く最大のテーマは「**AIの実用化フェーズへの本格突入**」だ。生成AIが単なるチャットツールから、自律的にタスクを完遂する「AIエージェント」へと進化し、開発ツール（GitHub Copilot）・行政（ガバメントAI）・企業業務など、あらゆる領域で実装が加速している。
+2026年3月末の時点で、IT業界全体を貫くテーマは「AIの実用化フェーズへの本格移行」と「それに伴うセキュリティリスクの拡大」の二軸に集約される。
 
-クラウド市場ではAWSの独占時代が終わりを告げ、Azure（OpenAI連携）とGCP（Vertex AI）がAI需要を取り込む形でシェアを拡大。一方でセキュリティ面では、AIツール自体が攻撃対象となる新局面が到来した。エンジニアにとっては、AIを活用した開発効率化と同時に、AIを含む攻撃面の拡大への対応が急務となっている年だ。
+Claude Code・GitHub Copilot・Cursorの三つ巴構造が固まりつつある中、AIが単なる補完ツールから「自律的なコーディングエージェント」へと脱皮した。エンジニアには「どのツールを選ぶか」よりも「エージェントとどう協働するか」を設計するスキルが求められる時代になっている。クラウドインフラ側でもKubernetesのAgent SandboxやDockerのAI統合が進み、長時間稼働するAIエージェントを安全に動かす基盤整備が本格化した。
+
+一方でTrivyの配布環境侵害は、信頼性が高いOSSセキュリティツール自体がサプライチェーン攻撃の標的になることを示しており、最小権限原則の徹底とパッチ適用の迅速化が改めて重要となっている。国内では国産LLMのガバメントAI採用やIPA主導のOSSガバナンス整備が進み、日本独自の技術基盤構築が加速している。
 
 ---
 
 ## 📚 アーカイブ
 
+- [2026-03-31](archive/2026-03-31.md)
 - [2026-03-26](archive/2026-03-26.md)
 - [2026-03-25](archive/2026-03-25.md)
 - [2026-03-24](archive/2026-03-24.md)
